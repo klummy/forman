@@ -1,10 +1,10 @@
 {
-  "name": "rollup-starter-project",
+  "name": "forman",
   "version": "1.0.0",
   "description": "Sample project for packages built with rollup.",
-  "main": "dist/rollup-starter-project.js",
-  "module": "dist/rollup-starter-project.mjs",
-  "jsnext:main": "dist/rollup-starter-project.mjs",
+  "main": "dist/forman.js",
+  "module": "dist/forman.mjs",
+  "jsnext:main": "dist/forman.mjs",
   "scripts": {
     "prebuild": "eslint lib test",
     "build": "rollup -c --environment BUILD:production",
@@ -13,7 +13,7 @@
     "test": "mocha",
     "prepublish": "BUILD=production npm test"
   },
-  "repository": "rollup/rollup-starter-project",
+  "repository": "rollup/forman",
   "keywords": [
     "es6",
     "modules",
@@ -24,13 +24,13 @@
   "author": "Brian Donovan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rollup/rollup-starter-project/issues"
+    "url": "https://github.com/rollup/forman/issues"
   },
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://github.com/rollup/rollup-starter-project#readme",
+  "homepage": "https://github.com/rollup/forman#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^7.1.1",
