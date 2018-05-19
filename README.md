@@ -1,5 +1,7 @@
 # Forman
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/klummy/forman.svg)](https://greenkeeper.io/)
+
 A bunch of utility that helps with working with forms in JavaScript applications
 
 ## Target Features
